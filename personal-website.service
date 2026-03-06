@@ -10,7 +10,7 @@ ExecStart=/usr/bin/npm run start
 Restart=on-failure
 RestartSec=5
 Environment=NODE_ENV=production
-Environment=PORT=3000
+Environment=PORT=3040
 
 [Install]
 WantedBy=multi-user.target
