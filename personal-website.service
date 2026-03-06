@@ -1,0 +1,16 @@
+[Unit]
+Description=Personal Website (Next.js)
+After=network.target
+
+[Service]
+Type=simple
+User=maxmanlz
+WorkingDirectory=/home/maxmanlz/Coding stuff/Personal Website
+ExecStart=/usr/bin/npm run start
+Restart=on-failure
+RestartSec=5
+Environment=NODE_ENV=production
+Environment=PORT=3000
+
+[Install]
+WantedBy=multi-user.target
