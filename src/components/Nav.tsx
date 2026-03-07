@@ -11,6 +11,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
+  { href: "/mtg", label: "MTG" },
   { href: "/blog", label: "Blog" },
   { href: "/resume", label: "Resume" },
   { href: "/contact", label: "Contact" },

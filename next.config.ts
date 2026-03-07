@@ -5,6 +5,14 @@ const nextConfig: NextConfig = {
   experimental: {
     mdxRs: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "cards.scryfall.io",
+      },
+    ],
+  },
 };
 
 export default nextConfig;

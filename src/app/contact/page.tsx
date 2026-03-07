@@ -10,9 +10,9 @@ export const metadata: Metadata = {
 };
 
 const socials = [
-  { icon: Github, href: "https://github.com/yourusername", label: "GitHub", handle: "@yourusername" },
-  { icon: Linkedin, href: "https://linkedin.com/in/yourprofile", label: "LinkedIn", handle: "in/yourprofile" },
-  { icon: Mail, href: "mailto:you@example.com", label: "Email", handle: "you@example.com" },
+  { icon: Github, href: "https://github.com/maxmanlz", label: "GitHub", handle: "@Maxmanlz" },
+  { icon: Linkedin, href: "https://linkedin.com/in/rodrigo-lizalde-sanchez", label: "LinkedIn", handle: "in/rodrigo-lizalde-sanchez" },
+  { icon: Mail, href: "mailto:rlizalde7+website@gmail.com", label: "Email", handle: "rlizalde7@gmail.com" },
 ];
 
 export default function ContactPage() {
