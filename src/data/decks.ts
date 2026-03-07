@@ -47,6 +47,18 @@ export const decks: Deck[] = [
     themes: ["Tribal", "Dinosaur", "Naya"],
     moxfield: "https://moxfield.com/decks/PBP9NcEJYUaNiO7ntU6DtQ",
   },
-  // Add more decks here — just fill in real card names and they'll
-  // be fetched automatically from Scryfall.
+  {
+    name: "Dos Raks Por Favor",
+    format: "Commander",
+    commanderName: "Rakdos, The Muscle",
+    keyCardNames: [
+      "Forsaken Miner",
+      "Dark Ritual",
+      "Phyrexian Altar",
+    ],
+    description:
+      "A fast paced bracket 4 rakdos combo deck designed to snipe top of library tutors and combo out",
+    themes: ["Sacrifice", "Combo", "Rakdos", "Exile"],
+    moxfield: "https://moxfield.com/decks/EQT5khNP-EShWYgVNBvyzQ",
+  },
 ];
